@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>auction.com</title>
+<style>
+.button {
+  background-color: #039BE5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h2>Register Here..</h2>
+<form action="RegisterController" method="post">
+<p style="color:#0288D1;"> UserName:    <input type="text" name="username" style="border:3px solid #03A9F4"/><br/><br/></p>
+<p style="color:#0288D1;"> Password:    <input type="text" name="pass" style="border:3px solid #03A9F4"/><br/><br/></p>
+<p style="color:#0288D1;"> FirstName:   <input type="text" name="firstname" style="border:3px solid #03A9F4"/><br/><br/></p> 
+<p style="color:#0288D1;"> LastName:    <input type="text" name="lastname" style="border:3px solid #03A9F4"/><br/><br/></p>
+
+<p style="color:#0288D1;">Gender:</p>
+<p style="color:#0288D1;"><input type="radio" name="gender" value="Male">Male</p>
+<p style="color:#0288D1;"><input type="radio" name="gender" value="Female">Female</p>
+<p style="color:#0288D1;"><input type="radio" name="gender" value="Unknown">Unknown</p>
+
+<p style="color:#0288D1;">Education:</p>
+<select name="education">
+<option value="Bachelor Of Technology">Bachelor of Technology</option>
+<option value="Bachelor Of Arts">Bachelor of Arts</option>
+<option value="Bachelor Of Science">Bachelor of Science</option>
+<option value="Master Of Technology">Master of Technology</option>
+<option value="Master Of Arts">Master of Arts</option>
+<option value="Master Of Science">Master of Science</option>
+</select>
+
+<p style="color:#0288D1;">Languages Known:</p>
+<p style="color:#0288D1;"><input type="checkbox" name="languages" value="C/C++">CandC++</p>
+<p style="color:#0288D1;"><input type="checkbox" name="languages" value="Java">Java</p>
+<p style="color:#0288D1;"><input type="checkbox" name="languages" value="Python">Python</p>
+
+<input type="submit" class="button" value="Submit"/></form>
+
+</body>
+</html>

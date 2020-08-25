@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>auction.com</title>
+<style>
+.button {
+  background-color: #039BE5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h2>Connect With Us Here..</h2>
+<form action="ContactController" method="post">
+
+<p style="color:#0288D1;"> Your Name:      <input type="text" name="name" style="border:3px solid #03A9F4"/></p>
+<p style="color:#0288D1;"> Your Phone No:  <input type="text" name="phone" style="border:3px solid #03A9F4"/></p>
+<p style="color:#0288D1;"> Your Email:     <input type="text" name="email" style="border:3px solid #03A9F4"/></p>
+
+<p style="color:#0288D1;">We can contact you by :</p>
+<p style="color:#0288D1;"><input type="radio" name="contact" value="phone">Phone</p>
+<p style="color:#0288D1;"><input type="radio" name="contact" value="email">Email</p>
+
+<p style="color:#0288D1;">We can contact you in these hours :</p>
+<p style="color:#0288D1;"><input type="checkbox" name="contacttime" value="9AM-1PM">9AM-1PM</p>
+<p style="color:#0288D1;"><input type="checkbox" name="contacttime" value="1PM-5PM">1PM-5PM</p>
+<p style="color:#0288D1;"><input type="checkbox" name="contacttime" value="5PM-9PM">5PM-9PM</p>	
+<p></p>  
+Enter your query...<p></p>
+<textarea name="textbox" cols="50" rows="5" style="border:3px solid #03A9F4;">
+</textarea><br /><p></p>
+<input type="submit" class="button" value="Submit"/></form>
+<p></p>
+</body>
+</html>
